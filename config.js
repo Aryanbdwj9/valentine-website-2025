@@ -20,24 +20,25 @@ const CONFIG = {
 
     // Questions and answers
     // Customize each question and its possible responses
-    questions: {
-        second: {
-            text: "Will you be my Valentine and go with me to Budapest?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "OFC, my Baby!! ❤️"           // Secret hover message
-        },
-        first: {
-            text: "How much do you like me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
-        },
-        third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
-        }
+  questions: {
+    first: {
+        text: "How much do you like me?",  
+        startText: "This much!",  
+        nextBtn: "Next ❤️"  
     },
+    second: {
+        text: "Will you be my Valentine and go with me to Budapest?",  
+        yesBtn: "Yes",  
+        noBtn: "No",  
+        secretAnswer: "OFC, my Baby!! ❤️"  
+    },
+    third: {
+        text: "Will you be my Valentine on February 14th, 2025? 🌹",  
+        yesBtn: "Yes!",  
+        noBtn: "No"  
+    }
+}
+
 
     // Love meter messages
     // They show up depending on how far they slide the meter

@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Tuuli",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -22,13 +22,13 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "I like you",                                    // First interaction
+            yesBtn: "I like you too                                             // Text for "Yes" button
+            noBtn: "Nahhh",                                               // Text for "No" button
+            secretAnswer: " ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
+            text: "How much do you like me?",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW You like me that much?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "you're so cuteee! 🚀💝",              // Shows when they go past 1000%
+        normal: "awww! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "Now come and call me, a big warm hug and a huge kiss!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
